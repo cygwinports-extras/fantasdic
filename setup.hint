@@ -1,0 +1,5 @@
+category: Gnome
+requires: ruby ruby-gettext ruby-gconf2 ruby-gtk2 ruby-libglade2 ruby-gnome2
+sdesc: "GNOME dictionary with multiple sources"
+ldesc: "Fantasdic is a dictionary application which allows you to look 
+up words in a variety of dictionary sources."

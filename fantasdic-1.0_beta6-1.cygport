@@ -1,0 +1,8 @@
+inherit ruby
+
+DESCRIPTION="GNOME dictionary application with multiple sources"
+HOMEPAGE="http://www.gnome.org/projects/fantasdic/"
+SRC_URI="http://www.mblondel.org/files/${PN}/${P/_/-}.tar.gz"
+SRC_DIR=${P/_/-}
+
+DIFF_EXCLUDES="*.omf"

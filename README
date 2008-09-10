@@ -1,0 +1,219 @@
+fantasdic
+------------------------------------------
+Fantasdic is a dictionary application which allows you to look up 
+words in a variety of dictionary sources.
+
+Runtime requirements:
+  ruby-1.8.7_p72-2
+  ruby-gconf2-0.17.0-1
+  ruby-gettext-1.92.0-1
+  ruby-gnome2-0.17.0-1
+  ruby-gtk2-0.17.0-1
+  ruby-libglade2-0.17.0-1
+
+Build requirements:
+  cygport-0.4.0-1
+  ruby-1.8.7_p72-2
+
+Canonical website:
+  http://www.gnome.org/projects/fantasdic/
+
+Canonical download:
+  http://www.mblondel.org/files/fantasdic/
+
+-------------------------------------------
+
+Build instructions:
+  unpack fantasdic-1.0_beta6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./fantasdic-1.0_beta6-X.cygport all
+
+This will create:
+  /usr/src/fantasdic-1.0_beta6-X-src.tar.bz2
+  /usr/src/fantasdic-1.0_beta6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/fantasdic
+  /usr/lib/ruby/site_ruby/1.8/fantasdic.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/authors.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/binary_search.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/command_line.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/config.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/documenters.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/file_source.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/gettext.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/net/dict.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/net/sockssocket.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/preferences.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/source_base.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/dict_server.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/dictd_file.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/edict_file.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/google_translate.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/stardict_file.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/sources/virtual_dictionary.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/translators.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/about_dialog.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/add_dictionary_dialog.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/alert_dialog.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/browser.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/combobox_entry.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/glade_base.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/ipc.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/main_app.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/matches_listview.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/preferences_dialog.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/print.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/result_text_view.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/ui/utils.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/utils.rb
+  /usr/lib/ruby/site_ruby/1.8/fantasdic/version.rb
+  /usr/share/doc/fantasdic-1.0_beta6/AUTHORS
+  /usr/share/doc/fantasdic-1.0_beta6/COPYING
+  /usr/share/doc/fantasdic-1.0_beta6/COPYRIGHT
+  /usr/share/doc/fantasdic-1.0_beta6/ChangeLog
+  /usr/share/doc/fantasdic-1.0_beta6/HACKING
+  /usr/share/doc/fantasdic-1.0_beta6/MAINTAINERS
+  /usr/share/doc/fantasdic-1.0_beta6/NEWS
+  /usr/share/doc/fantasdic-1.0_beta6/README
+  /usr/share/doc/fantasdic-1.0_beta6/THANKS
+  /usr/share/doc/fantasdic-1.0_beta6/TODO
+  /usr/share/doc/fantasdic/html/AUTHORS
+  /usr/share/doc/fantasdic/html/C/ar01s02.html
+  /usr/share/doc/fantasdic/html/C/ar01s03.html
+  /usr/share/doc/fantasdic/html/C/ar01s04.html
+  /usr/share/doc/fantasdic/html/C/ar01s05.html
+  /usr/share/doc/fantasdic/html/C/ar01s06.html
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-dictionaries-databases.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-dictionaries-fonts.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-dictionaries-source.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-find-text.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-preferences-dictionaries.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-preferences-proxy.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-preferences-startup.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-search.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic-system-tray.png
+  /usr/share/doc/fantasdic/html/C/figures/fantasdic.png
+  /usr/share/doc/fantasdic/html/C/index.html
+  /usr/share/doc/fantasdic/html/ChangeLog
+  /usr/share/doc/fantasdic/html/LINGUAS
+  /usr/share/doc/fantasdic/html/README
+  /usr/share/doc/fantasdic/html/es/ar01s02.html
+  /usr/share/doc/fantasdic/html/es/ar01s03.html
+  /usr/share/doc/fantasdic/html/es/ar01s04.html
+  /usr/share/doc/fantasdic/html/es/ar01s05.html
+  /usr/share/doc/fantasdic/html/es/ar01s06.html
+  /usr/share/doc/fantasdic/html/es/index.html
+  /usr/share/doc/fantasdic/html/fr/ar01s02.html
+  /usr/share/doc/fantasdic/html/fr/ar01s03.html
+  /usr/share/doc/fantasdic/html/fr/ar01s04.html
+  /usr/share/doc/fantasdic/html/fr/ar01s05.html
+  /usr/share/doc/fantasdic/html/fr/ar01s06.html
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-dictionaries-databases.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-dictionaries-fonts.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-dictionaries-source.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-find-text.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-preferences-dictionaries.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-preferences-proxy.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-preferences-startup.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-search.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic-system-tray.png
+  /usr/share/doc/fantasdic/html/fr/figures/fantasdic.png
+  /usr/share/doc/fantasdic/html/fr/index.html
+  /usr/share/doc/fantasdic/html/sv/ar01s02.html
+  /usr/share/doc/fantasdic/html/sv/ar01s03.html
+  /usr/share/doc/fantasdic/html/sv/ar01s04.html
+  /usr/share/doc/fantasdic/html/sv/ar01s05.html
+  /usr/share/doc/fantasdic/html/sv/ar01s06.html
+  /usr/share/doc/fantasdic/html/sv/figures/fantasdic-find-text.png
+  /usr/share/doc/fantasdic/html/sv/figures/fantasdic-search.png
+  /usr/share/doc/fantasdic/html/sv/figures/fantasdic.png
+  /usr/share/doc/fantasdic/html/sv/index.html
+  /usr/share/fantasdic/config/default.yaml
+  /usr/share/fantasdic/glade/add_dictionary_dialog.glade
+  /usr/share/fantasdic/glade/main_app.glade
+  /usr/share/fantasdic/glade/preferences_dialog.glade
+  /usr/share/fantasdic/glade/server_infos_dialog.glade
+  /usr/share/fantasdic/icons/fantasdic.svg
+  /usr/share/fantasdic/icons/fantasdic_16x16.ico
+  /usr/share/fantasdic/icons/fantasdic_16x16.png
+  /usr/share/fantasdic/icons/fantasdic_22x22.ico
+  /usr/share/fantasdic/icons/fantasdic_22x22.png
+  /usr/share/fantasdic/icons/fantasdic_24x24.ico
+  /usr/share/fantasdic/icons/fantasdic_24x24.png
+  /usr/share/fantasdic/icons/fantasdic_32x32.ico
+  /usr/share/fantasdic/icons/fantasdic_32x32.png
+  /usr/share/fantasdic/icons/fantasdic_48x48.ico
+  /usr/share/fantasdic/icons/fantasdic_48x48.png
+  /usr/share/fantasdic/ui/menus.xml
+  /usr/share/fantasdic/ui/popups.xml
+  /usr/share/fantasdic/ui/toolbar.xml
+  /usr/share/gnome/help/fantasdic/AUTHORS
+  /usr/share/gnome/help/fantasdic/C/fantasdic.xml
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-dictionaries-databases.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-dictionaries-fonts.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-dictionaries-source.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-find-text.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-preferences-dictionaries.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-preferences-proxy.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-preferences-startup.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-search.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic-system-tray.png
+  /usr/share/gnome/help/fantasdic/C/figures/fantasdic.png
+  /usr/share/gnome/help/fantasdic/ChangeLog
+  /usr/share/gnome/help/fantasdic/LINGUAS
+  /usr/share/gnome/help/fantasdic/README
+  /usr/share/gnome/help/fantasdic/es/fantasdic.xml
+  /usr/share/gnome/help/fantasdic/fr/fantasdic.xml
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-dictionaries-databases.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-dictionaries-fonts.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-dictionaries-source.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-find-text.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-preferences-dictionaries.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-preferences-proxy.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-preferences-startup.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-search.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic-system-tray.png
+  /usr/share/gnome/help/fantasdic/fr/figures/fantasdic.png
+  /usr/share/gnome/help/fantasdic/sv/fantasdic.xml
+  /usr/share/gnome/help/fantasdic/sv/figures/fantasdic-find-text.png
+  /usr/share/gnome/help/fantasdic/sv/figures/fantasdic-search.png
+  /usr/share/gnome/help/fantasdic/sv/figures/fantasdic.png
+  /usr/share/locale/ar/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/br/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/ca/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/cs/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/de/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/es/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/fi/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/fr/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/it/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/ja/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/oc/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/pt/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/sr/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/sv/LC_MESSAGES/fantasdic.mo
+  /usr/share/locale/vi/LC_MESSAGES/fantasdic.mo
+  /usr/share/man/man1/fantasdic.1.gz
+  /usr/share/omf/fantasdic/fantasdic-C.omf
+  /usr/share/omf/fantasdic/fantasdic-fr.omf
+
+------------------
+
+Port Notes:
+
+----- version 1.0_beta6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
